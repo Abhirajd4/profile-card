@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+
+}
+.top-div{
+    background-color: #3450db;
+    width :300px;
+    height: 200px;
+        
+        border: 1px solid #ccc; /* Optional: Add a border for the card */
+        border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+        overflow: hidden; /* Ensure the border-radius is applied to the card content */
+}
+
+img{
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+  margin-top: 98px;
+  border: 2px solid white;
+}
+.bottom-div{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+.Message-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    height: auto;
+    border-radius: 10px; /* Adjust the value to change the roundness of the corners */
+    background-color: #3450db; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    cursor: pointer;
+margin-top: 20px
+}
+
+.subscribe-button{ padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    height: auto;
+    border-radius: 10px; /* Adjust the value to change the roundness of the corners */
+    background-color:#3450db; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    cursor: pointer;
+margin-top: 20px;
+
+}
+.font{
+    margin-top: 10px;
+}
+.bottom-font{
+    margin-top: 20px;
+    display: flex;
+ justify-content: center;
+    
+}
+.vertical-line {
+    width: 1px;
+    height: 20px; /* Adjust the height of the vertical line as needed */
+    background-color: #333; /* Color of the vertical line */
+    margin: 0 10px; /* Adjust the margin for spacing between icons and lines */
+  }
